@@ -1,5 +1,5 @@
 {
-    "name": "diablomedia/zendframework1-validate",
+    "name": "donkeyworks/zendframework1-validate",
     "description": "Zend Framework 1 Validate component",
     "type": "library",
     "keywords": [
@@ -12,14 +12,14 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.0.0",
-        "diablomedia/zendframework1-exception": "^1.0.1",
-        "diablomedia/zendframework1-config": "^1.0.0",
-        "diablomedia/zendframework1-loader": "^1.0.0",
-        "diablomedia/zendframework1-registry": "^1.0.0",
-        "diablomedia/zendframework1-date": "^1.0.0",
-        "diablomedia/zendframework1-filter": "^1.0.0",
-        "diablomedia/zendframework1-locale": "^1.0.0",
-        "diablomedia/zendframework1-translate": "^1.0.0"
+        "donkeyworks/zendframework1-exception": "^1.0.1",
+        "donkeyworks/zendframework1-config": "^1.0.0",
+        "donkeyworks/zendframework1-loader": "^1.0.0",
+        "donkeyworks/zendframework1-registry": "^1.0.0",
+        "donkeyworks/zendframework1-date": "^1.0.0",
+        "donkeyworks/zendframework1-filter": "^1.0.0",
+        "donkeyworks/zendframework1-locale": "^1.0.0",
+        "donkeyworks/zendframework1-translate": "^1.0.0"
     },
     "autoload": {
         "psr-0": {
@@ -65,9 +65,9 @@
         "ext-iconv": "Used in Hostname and StringLength validators",
         "ext-ctype": "Used in the CreditCard and Hex validators",
         "ext-intl": "Optionally used in the EmailAddress validator",
-        "diablomedia/zendframework1-validate-db": "To use Zend_Db validations (RecordExists/NoRecordExists)",
-        "diablomedia/zendframework1-validate-ldap": "To use Zend_Ldap validations",
-        "diablomedia/zendframework1-validate-file": "To use Zend_File validations",
-        "diablomedia/zendframework1-validate-sitemap": "To use Zend_Sitemap validations"
+        "donkeyworks/zendframework1-validate-db": "To use Zend_Db validations (RecordExists/NoRecordExists)",
+        "donkeyworks/zendframework1-validate-ldap": "To use Zend_Ldap validations",
+        "donkeyworks/zendframework1-validate-file": "To use Zend_File validations",
+        "donkeyworks/zendframework1-validate-sitemap": "To use Zend_Sitemap validations"
     }
 }
